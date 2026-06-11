@@ -1,0 +1,87 @@
+/*Arquivo estilo.css ---- menu1 centralizado */
+*{ 
+     margin: 0px;    
+     padding: 0px; 
+}
+body{ font-family: Times New Roman; 
+        background: #f5f5dc;
+        margin-top: 5px;
+        text-align: center;
+}
+        a{ text-decoration: none; color: #000; }/*retira o sublinhado*/
+        a:hover{ }
+#header{
+            width: 580px;
+            height: 80px;
+            line-height: 80px; /* centraliza na vertical */
+            background-color:  #f5f5dc;
+            border: 0px dashed #ccc;
+            margin: 0px auto;
+        }
+		
+ul.menu{
+            text-align: center; /* centraliza na horizontal */
+        }
+
+ul.menu li{
+            display: inline-block; /* centraliza na horizontal */
+            margin: 0px 5px;
+        }
+ul.menu li a{
+            background-color: #56616b;
+            border-radius: 6px; /*bordas arredondadas*/
+            padding: 10px 14px; /*distanciamento no código*/
+            color: #fff;
+}
+ul.menu li a:hover{
+            background-color: #A9A9A9;
+}
+
+h1{
+    margin-top: 20px;
+    color: #000;
+}
+
+h2{
+    margin-top: 20px;
+    font-weight: bold   ;
+    text-decoration: underline;
+}
+
+.article h1{
+         font-size: 28px;
+         font-weight: bold;
+         text-transform:uppercase;
+         text-align:center;
+}
+.article p{
+         font-size: 18px;
+         text-align: center;
+         margin: 20px;
+}
+#article{
+         font-size: 20px;
+         text-align: center;
+         margin: 20px;
+}
+
+table{
+    margin: 0 auto; /* centraliza a tabela */
+    border-collapse: collapse; /* remove espaços entre as células */
+    width: 50%; /* define a largura da tabela */
+}
+
+.artigo{
+    width:350px;
+    margin:5px 8px;
+    float:left;
+}
+#container {
+    display: flex;           
+    justify-content: center;    
+    gap: 20px;                 
+ }
+#container img {
+    max-width: 200px;           
+    height: auto;
+ }
